@@ -1,0 +1,8 @@
+#resume-header {
+	color: #003171; 
+	font-weight: bold;
+}
+
+#resume-header:hover {
+	color: white;
+}
