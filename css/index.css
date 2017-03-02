@@ -1,10 +1,6 @@
 #resume-header {
-	color: #003171; 
+	color: white; 
 	font-weight: bold;
-}
-
-#resume-header:hover {
-	color: white;
 }
 
 #resume-entry {

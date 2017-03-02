@@ -1677,7 +1677,7 @@ blockquote {
 }
 
 .navbar-custom .navbar-brand, .navbar-custom .navbar-link, .navbar-custom .btn-link {
-  color: #003171;
+  color: white;
 }
 
 .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-link:hover, .navbar-custom .btn-link:hover, .navbar-custom .btn-link:focus {
@@ -1686,11 +1686,11 @@ blockquote {
 }
 
 .navbar-custom .navbar-toggle .icon-bar {
-  background-color: #003171;
+  background-color: white;
 }
 
 .navbar-custom .navbar-text, .navbar-custom .navbar-nav > li > a {
-  color: #003171;
+  color: white;
 }
 
 .navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus {
