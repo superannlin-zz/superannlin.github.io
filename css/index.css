@@ -6,3 +6,11 @@
 #resume-entry {
 	margin: 20px 0px 20px 20px;
 }
+
+.project {
+	margin: 20px 0px 20px 0px;
+}
+
+.custom-btn {
+	width: 200px;
+}
