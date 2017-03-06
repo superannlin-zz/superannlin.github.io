@@ -3,11 +3,12 @@
     <head>
         <title>Annlin Sheih</title>
         <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-		<script src="https://use.fontawesome.com/4420b807a4.js"></script>
 		<!--<link rel="stylesheet" href="https://bootflat.github.io/bootflat/css/bootflat.css">-->
 		<link rel="stylesheet" href="bootflat/css/bootflat.css">
 		<link rel="stylesheet" href="css/index.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli">
+		<script src="https://use.fontawesome.com/4420b807a4.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	</head>
 
     <body style="padding-top:70px">
@@ -139,51 +140,46 @@
 		<h2 id="resume" style="padding-top:70px"><center>Resume</center></h2>
 		<div class="row" style="margin-bottom:100px">
 			<div class="col-md-8 col-md-offset-2">
-				<div class="list-group">
-					<a href="#" class="list-group-item list-group-item-primary" id="resume-header">Education</a>
-					<p id="resume-entry">September 2016 - June 2017<br>M.S. Computer Science<br>University of California, Santa Cruz<br><br>August 2012 - May 2016<br>B.S. Computer Engineering<br>University of Illinois at Urbana-Champaign</p>
-					<a href="#" class="list-group-item list-group-item-primary" id="resume-header">Work Experience</a>
-					<p id="resume-entry">May 2016 - August 2016<br>Software Engineering Intern<br>WebDAM<br><br>May 2015 - July 2015<br>Software Engineering Intern<br>Chegg</p>
-					<a href="#" class="list-group-item list-group-item-primary" id="resume-header">Extracurricular Activities</a>
-					<p id="resume-entry">August 2013 - May 2016<br>Design Lead<br>Design for America</p>
-					<a href="#" class="list-group-item list-group-item-primary" id="resume-header">Programming Languages</a>
-					<p id="resume-entry">C, C++, CSS, HTML, Java, Javascript, Python, Haskell</p>
-					<a href="#" class="list-group-item list-group-item-primary" id="resume-header">Frameworks</a>
-					<p id="resume-entry">Bootstrap, Django, Laravel<br><br></p>
-				</div>
+				<object data="assets/resume.pdf" type="application/pdf" width="100%" height="1200px"></object> 
 			</div>
 		</div>
 		
-		<h2 id="projects" style="padding-top:70px"><center>Projects</center></h2>
+		<h2 id="projects" style="padding-top:70px; padding-bottom: 20px;"><center>Projects</center></h2>
 			<div class="row" style="padding-bottom:100px">
-				<div class="col-md-2 col-md-offset-2">
+				<div id="chloropleth" class="col-md-2 col-md-offset-2" data-toggle="tooltip" title="Population Density in Illinois Counties">
 					<a href="https://superannlin.github.io/chloropleth/">
 					<div class="btn btn-primary custom-btn">Population Density</div>
 					<img class="events-object img-rounded" style="width:200px; height:200px" src="assets/chloropleth.png">
 					</a>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-2" data-toggle="tooltip" title="Energy Consumption per Capita">
 					<a href="https://superannlin.github.io/multiline/">
 					<div class="btn btn-primary custom-btn">Multiline</div>
 					<img class="events-object img-rounded" style="width:200px; height:200px" src="assets/multiline.png">
 					</a>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-2" data-toggle="tooltip" title="Total Energy Consumption">
 					<a href="https://superannlin.github.io/scatterplot/">
 					<div class="btn btn-primary custom-btn">Scatterplot</div>
 					<img class="events-object img-rounded" style="width:200px; height:200px" src="assets/scatter.png">
 					</a>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-2" data-toggle="tooltip" title="Diary of a Well-Traveled Pikachu">
 					<a href="http://peekatpika.tumblr.com/">
-					<div class="btn btn-primary custom-btn">Adventures with Pikachu</div>
+					<div class="btn btn-primary custom-btn">Pikadventures</div>
 					<img class="events-object img-rounded" style="width:200px; height:200px" src="assets/beach_pika.png">
 					</a>
 				</div>
 			</div>
 
+		<script>
+			$(document).ready(function(){
+    			$('[data-toggle="tooltip"]').tooltip(); 
+			});
+		</script>
+		
         <!-- Bootstrap -->
-        <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<!--        <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>-->
         <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 
         <!-- Bootflat's JS files.-->
